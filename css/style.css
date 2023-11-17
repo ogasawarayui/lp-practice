@@ -1,1 +1,22 @@
 @charset "utf-8";
+
+body {
+  width: 1100px;
+}
+
+.chart {
+  background: #fff;
+  color: #777;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  float: left;
+}
+
+.box1 {
+  color: #ffffff;
+  background-color: #6ba7ed;
+  font-size: 12px;
+  padding: 12px 14px;
+}
+
+<section class="skills">< !-- ←セクションの背景、要素内の余白 --><div class="inner skills-inner">< !-- ←inner:共通で使用する横幅、skills-inner:セクションごとで使用する場合に使用 -->< !-- タイトルなどのコンテンツ --></div></section>< !-- skills -->
