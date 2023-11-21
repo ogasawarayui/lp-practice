@@ -1,7 +1,8 @@
 @charset "utf-8";
 
-body {
-  width: 1100px;
+.inner {
+  max-width: 1100px;
+  margin: 0 auto;
 }
 
 .icon {
@@ -9,7 +10,6 @@ body {
   color: #777;
   margin-top: 15px;
   margin-bottom: 15px;
-  float: left;
 }
 
 .contact {
@@ -19,20 +19,32 @@ body {
   padding: 12px 14px;
 }
 
-.WEB PRODUCTION COMPANY {
+.header {
+  display: flex;
+  margin: 15px 150px;
+  justify-content: space-between;
+}
+
+.keyvisual {
+  background-image: url(../img/keyvisual/keyvisual.jpg);
+  background-repeat: no-repeat;
+  padding: 400px 0px;
+  text-align: center;
+  background-position: center;
+  background-size: cover;
+}
+
+.keyvisual h1 {
   font-size: 65px;
-  font-weight: 700;
+  font-weight: 700px;
   color: #6ab7eb;
-  margin-top: 400px;
   margin-bottom: 30px;
 }
 
-.DIRECTION,
-CONTENT MARKETING {
+.keyvisual h2 {
   font-size: 40px;
   font-weight: 700;
   color: #ffffff;
-  margin-bottom: 400px;
 }
 
 .pc.png {
